@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSSE SHOP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+
+
+<body class="bg-gray-50">
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b shadow-sm">
+        <div class="max-w-6xl mx-auto px-5 py-3 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="text-3xl text-gray-800 font-bold">POSSE SHOP</div>
+            
+            <nav class="flex items-center gap-4">
+                <button class="rounded-full p-3 text-2xl hover:scale-125 transition-transform duration-200">🛒</button>
+                <button class="rounded-full p-3 text-2xl hover:scale-125 transition-transform duration-200">❤</button>
+                <button class="rounded-full p-3 text-2xl hover:scale-125 transition-transform duration-200">👤</button>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+<main class="mt-16 max-w-5xl mx-auto px-8 py-10">
+    <h1 class="text-3xl font-bold mb-6">商品一覧</h1>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+
+        <div class="bg-white rounded-lg shadow p-4">
+            <div class="text-9xl mb-2 text-center">👕</div>
+            <h2 class="text-lg font-bold text-center">Tシャツ</h2>
+            <p class="text-gray-700 text-md mt-1 text-center">¥10,000</p>
+            <button class="mt-4 w-full bg-black text-white rounded-full px-4 py-2 text-sm font-semibold hover:bg-blue-600 scale-105 transition duration-200">カートに入れる</button>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4">
+            <div class="text-9xl mb-2 text-center">👔</div>
+            <h2 class="text-lg font-bold text-center">ワイシャツ</h2>
+            <p class="text-gray-700 text-md mt-1 text-center">¥10,000</p>
+            <button class="mt-4 w-full bg-black text-white rounded-full px-4 py-2 text-sm font-semibold hover:bg-blue-600 scale-105 transition duration-200">カートに入れる</button>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4">
+            <div class="text-9xl mb-2 text-center">👗</div>
+            <h2 class="text-lg font-bold text-center">ワンピース</h2>
+            <p class="text-gray-700 text-md mt-1 text-center">¥10,000</p>
+            <button class="mt-4 w-full bg-black text-white rounded-full px-4 py-2 text-sm font-semibold hover:bg-blue-600 scale-105 transition duration-200">カートに入れる</button>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4">
+            <div class="text-9xl mb-2 text-center">👖</div>
+            <h2 class="text-lg font-bold text-center">ジーンズ</h2>
+            <p class="text-gray-700 text-md mt-1 text-center">¥10,000</p>
+            <button class="mt-4 w-full bg-black text-white rounded-full px-4 py-2 text-sm font-semibold hover:bg-blue-600 scale-105 transition duration-200">カートに入れる</button>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4">
+            <div class="text-9xl mb-2 text-center">👟</div>
+            <h2 class="text-lg font-bold text-center">スニーカー</h2>
+            <p class="text-gray-700 text-md mt-1 text-center">¥10,000</p>
+            <button class="mt-4 w-full bg-black text-white rounded-full px-4 py-2 text-sm font-semibold hover:bg-blue-600 scale-105 transition duration-200">カートに入れる</button>
+        </div>    
+        <div class="bg-white rounded-lg shadow p-4">
+            <div class="text-9xl mb-2 text-center">🧥</div>
+            <h2 class="text-lg font-bold text-center">コート</h2>
+            <p class="text-gray-700 text-md mt-1 text-center">¥10,000</p>
+            <button class="mt-4 w-full bg-black text-white rounded-full px-4 py-2 text-sm font-semibold hover:bg-blue-600 scale-105 transition duration-200">カートに入れる</button>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4">
+            <div class="text-9xl mb-2 text-center">👘</div>
+            <h2 class="text-lg font-bold text-center">着物</h2>
+            <p class="text-gray-700 text-md mt-1 text-center">¥10,000</p>
+            <button class="mt-4 w-full bg-black text-white rounded-full px-4 py-2 text-sm font-semibold hover:bg-blue-600 scale-105 transition duration-200">カートに入れる</button>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4">
+            <div class="text-9xl mb-2 text-center">👒</div>
+            <h2 class="text-lg font-bold text-center">帽子</h2>
+            <p class="text-gray-700 text-md mt-1 text-center     ">¥10,000</p>
+            <button class="mt-4 w-full bg-black text-white rounded-full px-4 py-2 text-sm font-semibold hover:bg-blue-600 scale-105 transition duration-200">カートに入れる</button>
+        </div>
+    </div>
+</main>
+</body>
+</main>
+</html>
+
+<!--商品カードを8枚以上並べる
+各カードには「画像（絵文字でよい）」「商品名」「価格」を含める
+グリッドで並べる（スマホで1〜2列、PCで4列程度）
+hover: を使って、マウスを乗せたときにカードの見た目が変わるエフェクトを付ける
+ページ全体のレイアウト（ヘッダーや余白など）も整える
+ホバー時のエフェクトを自分で選ぶこと（shadow-lg・scale-105・bg変化など--!>
